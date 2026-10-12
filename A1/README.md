@@ -41,6 +41,13 @@ question, over and over: *should I stop now, or should I take one more risk?*
 python main.py
 ```
 
+### Processing Java Mode
+
+Open `GreedHouse/GreedHouse.pde` in Processing with **Java Mode** selected, then
+click **Run**. The sketch uses the same `greed_house_save.json` file in the
+project root as the Python version, so coins, inventory, best floor, and
+statistics are shared between versions.
+
 ## Controls
 
 | Action        | Mouse           | Keyboard |
