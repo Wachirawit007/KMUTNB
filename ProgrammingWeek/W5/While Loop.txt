@@ -1,0 +1,22 @@
+def countdown():
+    n = 5                  
+    while n > 0:           
+        print(n)
+        n = n - 1          
+
+
+def infinite_loop_example():
+    n = 5
+    while n > 0:
+        print(n)
+        # n = n - 1   
+
+
+def sum_1_to_n_inline():
+    n = 5
+    sum = 0
+    count = 1
+    while count <= n:
+        sum = sum + count
+        count = count + 1
+    print("Sum =", sum)

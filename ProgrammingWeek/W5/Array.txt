@@ -1,0 +1,35 @@
+def sum_many_variables(x, y, z)
+    sum = 0
+    sum = sum + x
+    sum = sum + y
+    sum = sum + z
+    return sum
+
+
+def print_elements()
+    a = [5, 9, 2]                 
+    i = 0
+    while i  len(a)
+        print(a[i])
+        i = i + 1
+
+
+def show_index()
+    a = [5, 9, 2]
+    i = 0
+    while i  len(a)
+        print(a[, i, ] = , a[i])
+        i = i + 1
+
+
+def sum_elements(a)
+    sum = 0
+    i = 0
+    while i  len(a)
+        sum = sum + a[i]
+        i = i + 1
+    return sum
+
+
+def average(a)
+    return sum_elements(a)  len(a)

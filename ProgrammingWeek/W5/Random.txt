@@ -1,0 +1,13 @@
+import random as _random
+
+
+def random(a, b)
+    return _random.randint(a, b)
+
+
+def draw_circle(x, y, r)
+    print(f  circle at ({x}, {y}) radius {r})
+
+
+def line(x1, y1, x2, y2)
+    print(f  line ({x1},{y1}) - ({x2},{y2}))

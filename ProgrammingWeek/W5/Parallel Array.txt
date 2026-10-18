@@ -1,0 +1,46 @@
+x = [1, 4, 2, 9, 3]
+y = [5, 3, 1, 7, 2]
+
+
+def draw():
+    i = 0
+    while i < len(x):
+        draw_circle(x[i], y[i], 20)
+        y[i] = y[i] + 2
+        x[i] = x[i] + 2
+        i = i + 1
+
+
+# เริ่มจาก list ว่าง แล้ว append
+def setup_random_points(n):
+    xs, ys, s = [], [], []         # s = speed
+    i = 0
+    while i < n:
+        xs.append(random(100, 900))
+        ys.append(random(100, 500))
+        s.append(random(1, 5))
+        i = i + 1
+    return xs, ys, s
+
+
+def draw_with_speed(xs, ys, s, n):
+    i = 0
+    while i < n:
+        draw_circle(xs[i], ys[i], 20)
+        ys[i] = ys[i] + s[i]
+        i = i + 1
+
+id_list = [1, 7, 199]
+health = [100, 70, 80]
+score = [50, 120, 90]
+
+product = ["Apple", "Banana", "Orange"]
+price = [1.20, 0.80, 1.50]
+stock = [30, 50, 20]
+
+
+def show_products():
+    i = 0
+    while i < len(product):
+        print(product[i], "price:", price[i], "stock:", stock[i])
+        i = i + 1
